@@ -13,37 +13,48 @@ These reports can be rendered in:
 ## Install
 
 ```shell
-npm i -g reportsdb
+$ npm i -g reportsdb
 ```
 
 ## Commands
 
-* Help
-  ```shell
+### Help
+
+```shell
 $ reportsdb -h
-  ```
-* Create project by copying the example
-  ```shell
+```
+
+### Create project by copying the example
+
+```shell
 $ reportsdb init .
-  ```
-  This will create a boilerplate on which to work on.
-  ```
+```
+
+This will create a boilerplate on which to work on.
+
+```
 /db.sqlite
 /reports/
 /tempates/
 /tempates/Food/
 /tempates/Food/html.pug
 /tempates/Food/query.sql
-  ```
-* Create PDF report
-  ```shell
+```
+
+### Create PDF report
+
+```shell
 $ reportsdb toPDF ./examples/templates/Food/
-  ```
-* Create CSV report
-  ```shell
+```
+
+### Create CSV report
+
+```shell
 $ reportsdb toCSV ./examples/templates/Food/
-  ```
-* Create HTML report
-  ```shell
+```
+
+### Create HTML report
+
+```shell
 $ reportsdb toHTML ./examples/templates/Food/
-  ```
+```
