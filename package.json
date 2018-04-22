@@ -1,0 +1,38 @@
+{
+  "name": "reportsdb",
+  "version": "1.0.0",
+  "description": "Create reports from SQLite with Pug and JavaScript math.",
+  "keywords": [
+    "database",
+    "math",
+    "sqlite",
+    "templates",
+    "reports"
+  ],
+  "main": "src/index.js",
+  "bin": "bin/cli.js",
+  "directories": {
+    "example": "examples",
+    "bin": "bin",
+    "lib": "src"
+  },
+  "scripts": {
+    "lint": "xo --fix",
+    "start": "bin/cli.js"
+  },
+  "author": "Lucian I. Last <lil5@disroot.org>",
+  "license": "MIT",
+  "dependencies": {
+    "awsm.css": "^2.1.0",
+    "better-sqlite3": "^4.1.0",
+    "big.js": "^5.0.3",
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0",
+    "html-pdf": "^2.2.0",
+    "html2csv": "^1.1.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "xo": "^0.20.3"
+  }
+}
