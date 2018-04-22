@@ -20,6 +20,10 @@
     "lint": "xo --fix",
     "start": "bin/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lil5/reportsdb.git"
+  },
   "author": "Lucian I. Last <lil5@disroot.org>",
   "license": "MIT",
   "dependencies": {
