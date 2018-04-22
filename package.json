@@ -1,6 +1,6 @@
 {
   "name": "reportsdb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create reports from SQLite with Pug and JavaScript math.",
   "keywords": [
     "database",
