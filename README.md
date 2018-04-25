@@ -22,6 +22,7 @@ $ npm i -g reportsdb
 
 ```shell
 $ reportsdb -h
+$ reportsdb toPDF -h
 ```
 
 ### Create project by copying the example
