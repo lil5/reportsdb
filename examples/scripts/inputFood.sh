@@ -3,12 +3,12 @@
 db="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../db.sqlite"
 
 q() {
-  qrtn=''
-  while [[ $qrtn == '' ]]; do
-    echo $1
-    read result
-    qrtn=$result
-  done
+	rtn=''
+	while [[ $qrtn == '' ]]; do
+		echo $1
+		read result
+		qrtn=$result
+	done
 }
 
 # Input

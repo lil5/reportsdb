@@ -98,12 +98,12 @@ module.exports = class ReportsDB {
 	}
 
 	htmlToPdf(html) {
-		const zm = 1.5;
+		const zm = 2;
 		const options = {
 			// "format": "A4",
 			// "orientation": "portrait",
-			height: (297 * zm) + 'mm',
-			width: (210 * zm) + 'mm',
+			height: (210 * zm) + 'mm',
+			width: (297 * zm) + 'mm',
 
 			border: (5 * zm) + 'mm'
 		};

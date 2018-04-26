@@ -51,7 +51,7 @@ function moreQueryAndOutputFilename(options) {
 }
 
 program
-	.version('1.1.0');
+	.version('1.2.0');
 
 program
 	.command('toPDF <template>')

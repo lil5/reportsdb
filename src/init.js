@@ -4,7 +4,7 @@ const fs = require('fs-extra');
 function init(dir) {
 	const outDir = path.isAbsolute(dir) ?
 		dir :
-    path.join(process.cwd(), dir);
+		path.join(process.cwd(), dir);
 
 	const inDir = path.join(__dirname, '../examples/');
 
